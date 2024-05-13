@@ -1,0 +1,5 @@
+/target
+elm/elm-stuff
+elm/node_modules
+rust/target
+slides/.direnv

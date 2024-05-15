@@ -9,9 +9,8 @@
 )
 
 #title-slide[
-  = Test Driven Development
+  == Test Driven Development
 
-  #v(2em)
   MD-Dev—Days
 
   Workshop von Rico Saßen
@@ -21,15 +20,14 @@
 ]
 
 #centered-slide[
-
   #image("tdd_cycle.png")
-  
 ]
 
 #slide[
 
-  = Wichtige Punkte
-  #v(2em)
+  == Wichtige Punkte
+
+  #v(3em)
 
   #line-by-line(mode: "transparent")[
     - Reflektiere den aktuellen Ausgangspunkt
@@ -48,17 +46,13 @@
 ]
 
 #centered-slide[
-  = Testpriorität
-
-  #v(2em)
+  == Testpriorität
   
   #enum-one-by-one(mode: "transparent")[Make it Work][Make it Right][Make it Fast]
 ]
 
 #centered-slide[
-  = Teststruktur AAA
-
-  #v(2em)
+  == Teststruktur AAA
   
   #enum-one-by-one(mode: "transparent")[Arrang][Act][Assert]
 ]
@@ -73,9 +67,7 @@
 ]
 
 #centered-slide[
-  = Unit Test Eigentschaften - First
-
-  #v(2em)
+  == Unit Test Eigentschaften - First
   
   #line-by-line(mode: "transparent")[
     - #strong[F]ast - schnell ausführbar
@@ -115,4 +107,12 @@
   "IV" -> 4
   "XIX" -> 19
   ```
+]
+
+#centered-slide[
+  == Müntliche Umfrage
+
+  Wer hier würde an einem mini TDD Workshop aus Katas teilnehmen?
+
+  Hand heben!
 ]

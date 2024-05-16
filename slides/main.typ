@@ -18,6 +18,7 @@
   13.05.2024
 
 ]
+#pdfpc.speaker-note("test")
 
 #centered-slide[
   #image("tdd_cycle.png")
@@ -42,7 +43,7 @@
 #focus-slide[
   *Spontantest*
 
-  Was waren die Wichtigen Punkte?
+  Was waren die wichtigen Punkte?
 ]
 
 #centered-slide[
@@ -67,16 +68,18 @@
 ]
 
 #centered-slide[
-  == Unit Test Eigentschaften - First
+  == Unit Test-Eigenschaften - FIRST
   
   #line-by-line(mode: "transparent")[
-    - #strong[F]ast - schnell ausführbar
+    - #strong[F]ast - schnell ausführbar sein
     - #strong[I]ndependent - unabhängig vom Rest sein
-    - #strong[R]epeatable - wiederholbar sein ohne dass der Test sich anders verhält (determinismus)
+    - #strong[R]epeatable - wiederholbar sein ohne dass der Test sich anders verhält (Determinismus)
     - #strong[S]elf-Validating - selbst aussagen können ob der Test bestanden ist
     - #strong[T]imely - so früh wie möglich schreiben
   ]
-#pdfpc.speaker-note("This is a note that only the speaker will see.")
+
+  #pdfpc.speaker-note("This is a note that only the speaker will see.")
+
 ]
 
 
@@ -94,13 +97,13 @@
   Muscle Memory Übung
 
   #pause
-  _Ich möchte TDD verinnerlichen, aber habe Probleme beim Aufsetzten des Projekts_
+  _Ich möchte TDD verinnerlichen, aber habe Probleme beim Aufsetzen des Projekts_
 ]
 
 #centered-slide[
   == Kata: From Roman Numerals
 
-  Schreibe eine Funktion `convert(string romanNumeral): int` die römische Zahlen in Dezimalzahlten umwandelt
+  Schreibe eine Funktion `convert(string romanNumeral): int` die römische Zahlen in Dezimalzahlen umwandelt
 
   ```
   "I" -> 1
@@ -110,9 +113,9 @@
 ]
 
 #centered-slide[
-  == Müntliche Umfrage
+  == Mündliche Umfrage
 
-  Wer hier würde an einem mini TDD Workshop aus Katas teilnehmen?
+  Wer von euch hat Lust an einem mini TDD Workshop aus Katas teilzunehmen?
 
-  Hand heben!
+  Hand heben! 🖑
 ]
